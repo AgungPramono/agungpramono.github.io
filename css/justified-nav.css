@@ -1,0 +1,182 @@
+body {
+  padding-top: 20px;
+  background-color: #ffffff;
+}
+
+/*.footer {
+  background-color: #25201D;
+  padding-top: 40px;
+  padding-bottom: 100px;
+  margin-top: 40px;
+  border-top: 1px solid #eee;
+}
+.footer {
+    font-family: 'RobotoLight', 'calibri', 'Verdana', 'Trebuchet MS', 'Arial', sans-serif;
+    font-size: 15px;
+    color: #ccc;
+    width: 100%;
+    background: #262626;
+    padding: 20px 0 20px 0;
+}*/
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  background-color: transparent;
+}
+.jumbotron .btn {
+  padding: 14px 24px;
+  font-size: 21px;
+}
+
+/* Customize the nav-justified links to be fill the entire space of the .navbar */
+
+.nav-justified {
+  background-color: #080808;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.nav-justified > li > a {
+  padding-top: 9px;
+  padding-bottom: 9px;
+  margin-bottom: 0;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+  background-color: #080808; /* Old browsers */
+  /*background-image: -webkit-gradient(linear, left top, left bottom, from(##000000), to(##000000));*/
+  background-image: -webkit-linear-gradient(top, #171616 0%, #171616 100%);
+  background-image:      -o-linear-gradient(top, #f5f5f5 0%, #e5e5e5 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(top), color-stop(0%, #f5f5f5), to(#e5e5e5));
+  background-image:         linear-gradient(top, #f5f5f5 0%, #e5e5e5 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5f5f5', endColorstr='#e5e5e5',GradientType=0 ); /* IE6-9 */
+  background-repeat: repeat-x; /* Repeat the gradient */
+  border-bottom: 1px solid #d5d5d5;
+}
+.nav-justified > .active > a,
+.nav-justified > .active > a:hover,
+.nav-justified > .active > a:focus {
+  background-color: #080808;
+  background-image: none;
+  -webkit-box-shadow: inset 0 3px 7px rgba(0,0,0,.15);
+          box-shadow: inset 0 3px 7px rgba(0,0,0,.15);
+}
+.nav-justified > li:first-child > a {
+  border-radius: 5px 5px 0 0;
+}
+.nav-justified > li:last-child > a {
+  border-bottom: 0;
+  border-radius: 0 0 5px 5px;
+}
+
+@media (min-width: 768px) {
+  .nav-justified {
+    max-height: 40px;
+  }
+  .nav-justified > li > a {
+    border-right: 0px solid #d5d5d5;
+    border-left: 0px solid #fff;
+  }
+  .nav-justified > li:first-child > a {
+    border-left: 0;
+    border-radius: 5px 0 0 5px;
+  }
+  .nav-justified > li:last-child > a {
+    border-right: 0;
+    border-radius: 0 5px 5px 0;
+  }
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  .masthead,
+  .marketing,
+  .footer {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+.header {  
+    width: 1135px; margin:0px auto 0px auto; font-family: 'RobotoLight', 'calibri', 'Verdana', 'Trebuchet MS', 'Arial', sans-serif;
+    font-size:15px;   position: relative;  height: 90px;
+  }
+.header .left{ 
+    width: 19%; float:left; margin-top: 0px;
+}
+.header .center{
+   width: 60%; height:45px; float:left; color:#797676; margin-top: 0px;border-left: 1px white solid;padding-left: 26px;
+ }
+
+.panel-heading {
+    /*color: #333;*/
+    background-color: #797676;
+    border-color: #ddd;
+    font-size: 16px;
+    color: #ffffff;
+}
+.detail{
+  font-size:14px; 
+  text-align: justify;
+}
+.content{
+  font-size:12px; 
+  text-align: justify;
+}
+/* ====== FOOTER ====== */
+.navfooter{ width: 100%;  background: #191919; color: #f5f5f5; }
+.navfooter ul.navi { margin: 0 -75px 0 -40px; padding: 10px 0 10px 0; list-style: none;}
+.navfooter ul.navi li { display: inline; font-size: 12px; font-weight: bold;}
+.navfooter ul.navi li a { padding: 5px 67px 5px 0; display: block; float:left; text-decoration: none; color: #c6c6c6; } 
+.navfooter ul.navi li.current-cat a { display:block; padding:5px 10px; }
+.navfooter ul.navi li.current-cat a:hover { display:block; padding:5px 10px; }
+.navfooter ul.navi li a:hover {  color: #FFF; } 
+
+.footer { font-family: 'RobotoLight', 'calibri', 'Verdana', 'Trebuchet MS', 'Arial', sans-serif; font-size: 15px; color: #ccc; width: 100%;  
+background: #262626; padding: 20px 0 0px 0;}
+.footer a { color:#ddd;}   
+.footer .col { width: 30.75%; margin-right: 3.8%; float: left; min-height: 1px; }
+.footer .col h2{ font-family: 'RobotoLight', 'calibri', 'Verdana', 'Trebuchet MS', 'Arial', sans-serif; font-size: 24px; 
+border-bottom: 1px solid #ccc;}
+
+.last{ margin-right: 0px!important;} 
+/*.footer .last h3{ font-family: 'RobotoLight', 'calibri', 'Verdana', 'Trebuchet MS', 'Arial', sans-serif; font-size: 24px; 
+border-bottom: 1px solid #ccc;}*/
+
+.marketing{
+          border-collapse:collapse;
+          color:#ccc;
+        }
+        .marketing td {
+          font-size: 14px;
+        }
+        .marketing tr{
+          border:1px solid #ccc;
+          border-top:0;
+          border-right:0;
+          border-left:none
+        }
+        .marketing th, table td{
+          padding:5px 0px;
+        }
+        .marketing th{
+          background: #262626;
+          font-weight: normal;
+          font-size: 17px;
+        }
+        .marketing tr:nth-child(odd){
+          background: #2F2F2F;
+        }
+        .marketing tr td:last-child, .marketing tr th:last-child {
+          text-align: left;
+        }
+        .marketing img{
+          height:28px;
+        }
+        .marketing tr td:nth-child(2), .marketing tr td:nth-child(3){
+          text-align:center;
+        }
+        .marketing th:first-child{
+          text-align:left;
+        }
