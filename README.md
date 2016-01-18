@@ -11,3 +11,4 @@
 * Sebagian content di website ini diambil dari website resmi yaitu [Brainmatics.com] (http://brainmatics.com)
 * Jika ada kesamaan isi di dalam website ini, hal tersebut tidak dimaksudkan untuk tujuan komersial melainkan sebagai 
   bahan pembelajaran bagi pembuat website ini.
+* Terima Kasih.  
